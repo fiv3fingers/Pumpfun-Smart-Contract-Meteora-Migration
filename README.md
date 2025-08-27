@@ -1,28 +1,39 @@
-# 💊 PumpFun Solana Smart Contract  
+# PumpFun Solana Smart Contract
 
-The **Pump.fun Smart Contract Fork** is a cutting-edge platform designed to empower users in creating and managing tokens, markets, and liquidity pools on **Raydium**. This enhanced version extends beyond the core features of Pump.fun, offering advanced functionalities for **token authority management, custom token properties, whitelisting, and liquidity control**.  
+The **Pump.fun Smart Contract forking** is a powerful platform that enables users to create tokens, markets, and liquidity pools on Raydium, Meteora, and PumpSwap. This project extends the capabilities of the original pump.fun, offering advanced tools for token management, pool operations, whitelisting, and real-time notifications.
 
-## ✨ Key Features  
+## Features
 
-- **Token Management**: Create fully customizable tokens (name, symbol, image) with optional revocable token authority.  
-- **Market Creation**: Seamless market setup for token trading.  
-- **Pool Management**: Add/remove liquidity on Raydium, manage SPL token burns efficiently.  
-- **Dashboard**: Comprehensive token listings with real-time insights.  
-- **Discord Integration**: Instant notifications via **Discord webhooks**.  
-- **Fee Handling**: Integrated fee structure for contract usage.  
+1. **Token Management**
+- Create tokens with custom names, symbols, and images.
+- Revoke token authority when necessary.
+2. **Market Creation**
+- Easily set up markets for trading your tokens.
+3. **Pool Management**
+- Add or remove liquidity in Raydium pools.
+- Efficiently burn SPL tokens.
+4. **Dashboard**
+- Display detailed information about tokens listed on PumpFun.
+5. **Discord Integration**
+- Receive real-time notifications via Discord webhooks.
+6. **Fees**
+- Collect and manage fees from users interacting with the smart contract.
+7. **Advanced Functionalities**
+- Migration: Seamlessly migrate to Meteora, Raydium, or PumpSwap using CPI calls.
+- Whitelist: Grant special permissions to specific users.
+- Spam Detection: Automatically detect and prevent spam transactions on OpenBook markets.
 
-## 🚀 Latest Enhancements  
+## Why Use PumpFun Fork?
+This smart contract is designed for Solana developers and token creators who want more control over token lifecycle, liquidity management, and market interactions. Whether you’re building your own decentralized exchange or just exploring tokenomics, PumpFun provides a robust foundation for your projects.
 
-### 🔄 **Meteora/Raydium Migration**  
-Effortlessly migrate liquidity to **Meteora or Raydium** using **Cross-Program Invocation (CPI) calls**. This ensures smooth interoperability and efficient asset movement between **Solana's top liquidity platforms**.  
+## Raydium Implementation
 
-### ✅ **Whitelisting System**  
-Implement **granular access control** by **whitelisting users** with specific permissions. This feature allows project owners to define different levels of authority, providing enhanced **security and flexibility** in token and pool management.  
+  - Config: [https://solscan.io/tx/5obvCaiH2KeFLX2RXeaXEWL2ndC853jHgEfVotexoKL9nJJ9KjMjs3ANSFc5wPbhC2CJFarF3FfUirL49SjBSH4Q?cluster=custom&customUrl=https://api.devnet.solana.com]
+  - Pool Creation: [https://solscan.io/tx/4hukGNLV8CfpXLwpML4n4jFDP1t6xyP7nn1atc5NhQvto8thSj3DqgSuh2oVGUgCxU8SjuoTrsyX5VuA34L8Mvnw?cluster=custom&customUrl=https://api.devnet.solana.com]
+  - Trading: [https://solscan.io/tx/2mTHb1bqyfvb3VAYrsJ7zGktMTraxpSSkT9tqBz8vFZsdH3HxTgPqH4e723xLjkAPCYfhTkqWCnV4RoFnm6mFRzn?cluster=custom&customUrl=https://api.devnet.solana.com]
+  - Transfer Fee: [https://solscan.io/tx/zS1vU4288tdco4FRtjBQ1vbdGyUtkaJ3M8qfdT2bz4Xgm4zvzEgaYLYBJfizZV3tpzSG8tN4J3Xdmr44nh7vnZJ?cluster=custom&customUrl=https://api.devnet.solana.com]
+  - Migration: [https://solscan.io/tx/3yU8GSAUj6AUCYMy1KGFFwBheYxLBvnWpKmxs2jSsvD9cExEZa58BGEtJg6heS4RxgD2zvePkpLxTUjUqkMnQcsT?cluster=custom&customUrl=https://api.devnet.solana.com]
 
-### ⚠️ **Spam Detection & Prevention**  
-A **smart spam detection system** automatically identifies and handles malicious activities in **OpenBook markets**. This ensures a fair and **secure trading environment** by mitigating spam transactions and market manipulation.  
+## 📞 Contact Info
 
-## 📩 Contact  
-For inquiries, custom integrations, or tailored solutions, reach out via:  
-
-💬 **Telegram**: [@idioRusty](https://t.me/idioRusty)
+**Telegram**: [@idioRusty](https://t.me/idioRusty)

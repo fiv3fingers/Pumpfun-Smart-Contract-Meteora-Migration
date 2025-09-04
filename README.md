@@ -36,4 +36,4 @@ This smart contract is designed for Solana developers and token creators who wan
 
 ## 📞 Contact Info
 
-**Telegram**: [@fiv3fingers](https://t.me/fiv3fingers)
+[Telegram](https://t.me/idioRusty)
